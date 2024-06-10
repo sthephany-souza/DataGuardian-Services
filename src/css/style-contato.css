@@ -1,0 +1,31 @@
+.informacoes{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+}
+
+.mapa{
+    margin: 28px;
+    max-width: 50%;
+}
+
+.contatos{
+    margin-right: 48px;
+    margin-top: 12%;
+    text-align: center;
+}
+
+.contatos h2{
+    font-size: 35px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.contato{
+    font-size: 20px;
+    padding: 20px;
+}
+
+.contato .fa{
+    padding: 12px;
+}
