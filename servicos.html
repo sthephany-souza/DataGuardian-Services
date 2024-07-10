@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <title>DataGuardian Services</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/x-icon" href="./src/img/icon.png">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+
+    <link rel="stylesheet" type="text/css" href="./src/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="./src/css/style-geral.css">
+    <link rel="stylesheet" type="text/css" href="./src/css/style-servicos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+
+    <script src="./src/js/script-forms.js" defer></script>
+</head>
+
+<body>
+    <header class="cabecalho">
+        <div class="logo">
+            <a href="#">
+                <img src="./src/img/logo.png" alt="DataGuardian Services">
+            </a>
+        </div>
+
+        <div class="menu">
+            <nav class="nav-menu">
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="sobre.html">Sobre</a>
+                    </li>
+                    <li>
+                        <a href="servicos.html">Serviços</a>
+                    </li>
+                    <li>
+                        <a href="contato.html">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="banner">
+        <div class="titulo">
+            <h1>DataGuardian Services</h1>
+            <p>Serviços de segurança da informação</p>
+
+            <ul class="button">
+                <li>
+                    <a href="servicos.html">Serviços</a>
+                </li>
+                <li>
+                    <a href="contato.html">Contato</a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="servicos">
+        <h2 class="titulo">O que oferecemos?</h2>
+        <br>
+        <div class="servicos-container">
+            <div class="servico ativo">
+                <img src="./src/img/site.jpg" alt="Site">
+                <h3>Site</h3>
+                <div class="infos">
+                    <p>
+
+                    </p>
+                </div>
+            </div>
+
+            <div class="servico ativo">
+                <img src="./src/img/suporte.jpg" alt="Suporte Técnico">
+                <h3>Suporte Técnico</h3>
+                <div class="infos">
+                    <p>
+
+                    </p>
+                </div>
+            </div>
+
+            <div class="servico ativo">
+                <img src="./src/img/design.jpg" alt="Design">
+                <h3>Design</h3>
+                <div class="infos">
+                    <p>
+
+                    </p>
+                </div>
+            </div>
+
+            <div class="servico ativo">
+                <img src="./src/img/aplicativo.png" alt="Aplicativo">
+
+                <h3>Aplicativo</h3>
+                <div class="infos">
+                    <p>
+
+                    </p>
+                </div>
+            </div>
+
+            <div class="servico ativo">
+                <img src="./src/img/servidor.jpg" alt="Servidor">
+
+                <h3>Servidor</h3>
+                <div class="infos">
+                    <p>
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="trabalhe-conosco">
+        <h2 class="titulo">Junte-se a nós</h2>
+            
+        <form id="regForm" action="">
+            <h1>Informações:</h1>
+                <br>
+            <div class="tab">Nome completo:
+                <p><input type="text" name="nome" placeholder="Ex: Ana Albuquerque Lima" id="nome"></p>
+            </div>
+
+            <div class="tab">Contatos:
+                <p><input placeholder="Ex: joana@gmail.com" type="email" name="email" id="email"></p>
+                    <br>
+                <p><input placeholder="Ex: (11)99999-9999" type="tel" name="telefone" id="telefone"></p>
+            </div>
+
+            <div class="tab">Data de Nascimento:
+                <p><input type="date" name="data" id="data-nasc"></p>
+            </div>
+
+            <div class="tab">Cargo desejado e currículo:
+                <p>
+                    <select class="cargo">
+                        <option value="RH">RH</option>
+                        <option value="DS-sistema">Desenvolvedor de sismtemas</option>
+                        <option value="DS-site">Desenvolvedor de sites</option>
+                        <option value="desgner">Designer</option>
+                        <option value="adm">Adiministração</option>
+                        <option value="suporte-tecnico">Suporte Técnico</option>
+                        <option value="atendimento">Atendimento ao cliente</option>
+                    </select>
+                </p>
+                    <br>
+                <p><input type="file" name="curriculo" id="curriculo"></p>
+            </div>
+                <br>
+            <div class="btn-infos">
+                <div class="botoes">
+                    <button class="anterior" type="button" id="prevBtn" onclick="nextPrev(-1)">Anterior</button>
+                    <button class="proximo" type="button" id="nextBtn" onclick="nextPrev(1)">Próximo</button>
+                </div>
+            </div>
+
+            <div style="text-align:center;margin-top:40px;">
+                <span class="step"></span>
+                <span class="step"></span>
+                <span class="step"></span>
+                <span class="step"></span>
+            </div>
+        </form>
+    </section>
+    <br>
+    <footer class="rodape">
+        <div class="copyriht">
+            <p>Copyright &copy; 2024 DataGuardian Services</p>
+        </div>
+
+        <div class="rede">
+            <a href="https://br.linkedin.com/" target="_blank">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+        </div>
+    </footer>
+</body>
+
+</html>

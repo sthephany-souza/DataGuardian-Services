@@ -1,0 +1,113 @@
+/* Quem Somos */
+.sobre-nos{
+    display: flex;
+    align-items: center;
+    padding: 0 5%;
+    gap: 50px;
+    margin-bottom: 50px;
+    justify-content: space-between;
+    text-align: justify;
+}
+
+.historia .infos h2{
+    font-family: "Raleway", sans-serif;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.historia .infos p{
+    font-family: "Raleway", sans-serif;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Missão */
+.missao .infos h2{
+    font-family: "Raleway", sans-serif;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.missao .infos p{
+    font-family: "Raleway", sans-serif;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Visão */
+.visao{
+    display: flex;
+    align-items: center;
+    padding: 0 5%;
+    gap: 50px;
+    justify-content: space-between;
+    text-align: justify;
+}
+
+.visao .infos{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 0 15px;
+}
+
+.visao .infos h2{
+    font-family: "Raleway", sans-serif;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.visao .infos p{
+    font-family: "Raleway", sans-serif;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.visao .container-imagem .imagem{
+    max-width: 450px;
+    border-radius: 50%;
+}
+
+.visao .container-imagem img{
+    width: 400px;
+    border-radius: 20%;
+}
+
+/* valores */
+.valores{
+    display: flex;
+    align-items: center;
+    padding: 0 5%;
+    gap: 50px;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.valores .infos{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.valores .infos h2{
+    font-family: "Raleway", sans-serif;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.valores .infos p{
+    font-family: "Raleway", sans-serif;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.valores .container-imagem .imagem{
+    max-width: 850px;
+    border-radius: 20%;
+}
+
+.valores .container-imagem img{
+    width: 400px;
+    border-radius: 20%;
+}
